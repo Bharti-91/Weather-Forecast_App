@@ -1,0 +1,46 @@
+body{
+font-family: Arial, sans-serif;
+background-image: url("https://images.unsplash.com/photo-1501973801540-537f08ccae7b");
+background-size: cover;
+background-position: center;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.container{
+background: rgba(255,255,255,0.8);
+padding:40px;
+border-radius:15px;
+text-align:center;
+width:350px;
+}
+
+.search-box input{
+padding:10px;
+width:70%;
+border-radius:5px;
+border:none;
+}
+
+.search-box button{
+padding:10px;
+background:#0077ff;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.weather-card{
+margin-top:20px;
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.2);
+}
+
+.weather-card img{
+width:100px;
+}
